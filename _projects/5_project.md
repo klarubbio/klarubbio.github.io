@@ -2,7 +2,7 @@
 layout: page
 title: Diabetes VR
 description: an educational tool for pediatric diabetes patients
-img: assets/img/diabetesvr.png
+img: assets/img/diabetesvr.PNG
 importance: 1
 category: UF
 related_publications:

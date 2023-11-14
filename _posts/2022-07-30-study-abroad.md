@@ -58,4 +58,4 @@ When I wasn't in class, I did my best to see France outside of the city. I visit
         {% include figure.html path="assets/img/german.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-I also travelled outside of France. I took a weekend trip to Luxembourg, where the nice scenery almost makes up for the price of water. After my program, I visited a friend Osnabrück, Germany and took a day trip Münster. Thanks again, AP Euro. Biking around the cities made for a memorable experience.
+I also travelled outside of France. I took a weekend trip to Luxembourg, where the nice scenery almost makes up for the price of water. After my program, I visited a friend Osnabrück, Germany and took a day trip Münster. Biking around the cities made for a memorable experience.

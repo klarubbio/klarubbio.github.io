@@ -24,7 +24,7 @@ I got started on this project in my first year at UF as a part of my <a href="ht
 
 My specific role in this project was to work with our collaborators from nuclear engineering at UF to implement a VR-based nuclear training simulation. I also implemented random dot viewing and image viewing activities, which tracked users' eye movements throughout to complete our experimental design. I adapted a radial basis function network classifier to take in gaze data from these various tasks and attempt to authenticate users. I went on to lead the production of a short paper and poster for publication at IEEE VR 2022. 
 
-For more information about this project, please see our <a href="https://www.youtube.com/watch?v=5Q-Yhv7c0dw">teaser video</a>, poster, and <a href="https://ieeexplore.ieee.org/document/9757593">IEEE page</a>.
+For more information about this project, please see our <a href="https://www.youtube.com/watch?v=5Q-Yhv7c0dw">teaser video</a>, poster, <a href="https://github.com/klarubbio/fall21_headset_demo">GitHub repository</a>, and <a href="https://ieeexplore.ieee.org/document/9757593">IEEE page</a>.
 
 
 

@@ -12,6 +12,8 @@ This work is the finals project from a special topics course I took at the Unive
 
 <a href="/assets/pdf/hcira.pdf">Final Presentation Link</a>
 
+<a href="https://github.com/klarubbio/EyeTrack_HCIRA">GitHub Repository</a>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/hcira.png" class="img-fluid rounded z-depth-1" %}

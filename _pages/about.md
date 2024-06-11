@@ -19,7 +19,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year undergraduate studying computer science at the University of Florida. I am interested in better understanding and accommodating for human behavior through technology. I have explored this so far through AR/VR technology and gaze tracking projects in research labs here at UF, student organizations, and my internships.
-
-I am currently applying for PhD programs in human-computer interaction and computer science.
+I am an incoming Computer Science Ph.D. student at Brown University. I am interested in better understanding and accommodating for human behavior through technology to create safer, more accessible experiences. 
 

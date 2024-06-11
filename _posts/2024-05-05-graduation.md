@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  I've graduated from UF!
-date:   2024-04-15 16:40:16
+date:   2024-05-05 16:40:16
 description: 
 tags: 
 categories: personal
@@ -14,5 +14,7 @@ I recently graduated summa cum laude from the University of Florida with a B.S. 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/grad.JPG" class="img-fluid rounded z-depth-1" %}
 </div>
+
+
 
 Go Gators :)

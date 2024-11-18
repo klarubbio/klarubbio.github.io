@@ -19,9 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a first year Computer Science Ph.D. student advised by Dr. Diana Freed at Brown University. 
-My research interest is sociotechnical systems within the context of at-risk populations. 
-I am particularly interested in evaluating and improving emerging technologies, like extended reality and artificial intelligence.
-Previously, I earned a B.S. in Computer Science from the University of Florida. I did research projects on applications of eye tracking, 
-interpersonal interactions in virtual reality, and spatial cognition in virtual reality. 
+I am a first year Computer Science Ph.D. student advised by Dr. Diana Freed at Brown University. My primary research interest is sociotechnical systems within the context of at-risk populations. 
+
+
+Technologies make assumptions about behavior, but I'm interested in understanding what happens when those assumptions are wrong, especially for at-risk users. I am particularly interested in evaluating and improving emerging technologies, like extended reality and artificial intelligence.
+
+
+Previously, I earned a B.S. in Computer Science from the University of Florida. I did fun research projects on applications of eye tracking, interpersonal interactions in virtual reality, and spatial cognition in virtual reality. 
 

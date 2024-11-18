@@ -1,81 +1,41 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Gaze-Based Authentication
+description: evaluating gaze-based authentication techniques for nuclear operator training in virtual reality
+img: assets/img/publication_preview/gazebased.png
+importance: 1
+category: UF
+related_publications: 9757593
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Behavior-based authentication methods are actively being developed for XR. In particular, gaze-based methods promise continuous au-thentication of remote users. However, gaze behavior depends on the task being performed. Identification rate is typically highest when comparing data from the same task. In this study, we compared authentication performance using VR gaze data during random dot viewing, 360-degree image viewing, and a nuclear training simulation. We found that within-task authentication performed best for image viewing (72%). The implication for practitioners is to integrate image viewing into a VR workflow to collect gaze data that is viable for authentication.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/publication_preview/gazebased.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://www.youtube.com/embed/5Q-Yhv7c0dw" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+I got started on this project in my first year at UF as a part of my <a href="https://cur.aa.ufl.edu/about-ursp/">University Research Scholars Program</a> Course-based Undergraduate Research experience. We learned about development in Unity for VR and brainstormed on how a VR-based training scenario might be implemented. I continued my involvement through an NSF Research Experience for Undergraduates (REU) the following Summer.
+
+My specific role in this project was to work with our collaborators from nuclear engineering at UF to implement a VR-based nuclear training simulation. I also implemented random dot viewing and image viewing activities, which tracked users' eye movements throughout to complete our experimental design. I adapted a radial basis function network classifier to take in gaze data from these various tasks and attempt to authenticate users. I went on to lead the production of a short paper and poster for publication at IEEE VR 2022. 
+
+For more information about this project, please see our <a href="https://www.youtube.com/watch?v=5Q-Yhv7c0dw">teaser video</a>, poster, <a href="https://github.com/klarubbio/fall21_headset_demo">GitHub repository</a>, and <a href="https://ieeexplore.ieee.org/document/9757593">IEEE page</a>.
+
+
+
+
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ieee_gaze_poster.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+K. LaRubbio, J. Wright, B. David-John, A. Enqvist and E. Jain, "Who do you look like? - Gaze-based authentication for workers in VR," 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), Christchurch, New Zealand, 2022, pp. 744-745, doi: 10.1109/VRW55335.2022.00223.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

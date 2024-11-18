@@ -1,81 +1,39 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Mitigating Harassment in Virtual Reality
+description: exploring harassment prevention techniques that preserve natural user interactions
+img: assets/img/publication_preview/personalspace.png
 importance: 1
-category: work
-related_publications: true
+category: UF
+related_publications: 10108862
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Personal space bubbles are implemented in virtual environments to protect users from physical harassment. When activated, an impermeable boundary encloses the user completely and complicates collaborative tasks, such as passing objects or performing social gestures. When personal space protection is not balanced with functionality, the personal space bubble becomes a gilded cage. In this project, we raise the possibility of alternate designs for personal space bubbles and test their impact on task performance within a workplace training context. Our early findings suggest that alternate bubble designs have the potential to balance safety and performance metrics such as task completion.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/publication_preview/personalspace.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://www.youtube.com/embed/ceMSX88rOCg" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+My role in this project was to lead our team from ideation to a user study to a publication. During an initial discussion on Meta's implementation of compulsory personal space boundaries, I began questioning how that regulation intended to protect vulnerable users may inadvertently bar them from fully enjoying collaboration in virtual environments. My major roles were in ideation, study design, running participants, and quantitative data analysis, and producing a poster and extended abstract.
+
+For more information about this project, please see our <a href="https://www.youtube.com/watch?v=ceMSX88rOCg">teaser video</a>, poster, and <a href="https://ieeexplore.ieee.org/document/10108862">IEEE page</a>.
+
+
+
+
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ieee_portrait_final.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+K. LaRubbio, E. Wilson, S. Koppal, S. Jörg and E. Jain, "Give me some room please! Personal space bubbles for safety and performance," 2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), Shanghai, China, 2023, pp. 897-898, doi: 10.1109/VRW58643.2023.00291.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

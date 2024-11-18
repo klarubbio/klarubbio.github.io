@@ -1,80 +1,31 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Gaze Gesture Recognition
+description: leveraging gesture recognition to classify gaze scan paths
+img: assets/img/hcira.png
+importance: 1
+category: UF
+related_publications:
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work is the finals project from a special topics course I took at the University of Florida called Human-Centered Input Recognition Algorithms. The course provided an overview of the <a href="https://depts.washington.edu/acelab/proj/dollar/impact.html">$-family recognizers</a> and broadly prompted us to extend some facet of the $1 recognizer for the final project. This recognizer is an instance-based nearest-neighbor classifier used to distinguish between user inputs. I am expanding this project as my senior capstone at UF to attempt to classify natural user gaze gestures on the basis of scan path shape.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<a href="/assets/pdf/hcira.pdf">Final Presentation Link</a>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<a href="https://github.com/klarubbio/EyeTrack_HCIRA">GitHub Repository</a>
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/hcira.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   These are the gaze paths recorded for the 16 unistroke gestures that are tested with normal evaluations of the $1 recognizer that use pen or touch-based inputs. They are undoubtedly less distinct than touch-based input paths, yet still exhibit recognizable shapes. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Rather than extending the recognizer's capabilities itself, this project evaluates its capacity to understand user gestures through a new modality: eye gaze. Gaze is ideal for unistroke gestures, as it is a continuous stream of data (excluding blinks or other moments when the eyes are not visible). This falls within the category of collecting a new dataset. The same sixteen unistroke gestures were performed for each participants, though it is expected that the data collection medium will render significant differences from the original experiment with mouse input. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}

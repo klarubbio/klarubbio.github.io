@@ -9,23 +9,23 @@ related_posts: false
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/paris1.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/paris1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/paris2.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/paris2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 This Summer, I spent 6 weeks studying in Paris, France as a part of the <a href="https://ufabroad.internationalcenter.ufl.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=11840">UF in Paris - Culture in Context program.</a> The experience connected me with language learning resources, numerous cultural experiences, and incredible memories. It was my first time outside of the country, which, while daunting, provided me with tremendous opportunities for growth. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/croissant.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/croissant.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/monalisa.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/monalisa.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/window.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/window.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -38,10 +38,10 @@ Aside from developping personally, I can see language learning opening doors for
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/monet.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/monet.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/reims.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/reims.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -49,13 +49,13 @@ When I wasn't in class, I did my best to see France outside of the city. I visit
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lux.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/lux.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/german2.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/german2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/german.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/german.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 I also travelled outside of France. I took a weekend trip to Luxembourg, where the nice scenery almost makes up for the price of water. After my program, I visited a friend Osnabrück, Germany and took a day trip Münster. Biking around the cities made for a memorable experience.

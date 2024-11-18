@@ -12,7 +12,7 @@ I recently graduated summa cum laude from the University of Florida with a B.S. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/grad.JPG" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/grad.JPG" class="img-fluid rounded z-depth-1" %}
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eye Movement Biometric Biasses
+title: Eye Movement Biometric Biases
 description: exploring demographic biases in eye movement biometrics for users with visual impairments
 img: assets/img/biases.PNG
 importance: 1

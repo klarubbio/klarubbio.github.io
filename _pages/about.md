@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a first year Computer Science Ph.D. student at Brown University. My primary research interest is sociotechnical systems within the context of at-risk populations. 
+I'm a first year Computer Science Ph.D. student at Brown University. My primary research interest is sociotechnical systems, specifically concerning online harm. 
 
 
 Technologies make assumptions about behavior, and I'm interested in understanding what happens when those assumptions fail to consider some users' preferences and needs. I'm particularly interested in evaluating and improving emerging technologies, like extended reality and artificial intelligence.

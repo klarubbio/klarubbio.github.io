@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. student at Brown University studying computer science. My research focuses on leveraging user-generated data to enhance users' productivity and well-being in ways that are sensitive to privacy and other relevant concerns. I am particularly interested in the uses of behavioral data collected by [extended reality](https://klarubbio.github.io/projects/2_project/) and [human-ai](TODO: add linky to new project) interfaces.
+I'm a Ph.D. student at Brown University studying computer science. My research focuses on leveraging user-generated data to enhance users' productivity and well-being in ways that are sensitive to privacy and other relevant concerns. I am particularly interested in the uses of behavioral data collected by [extended reality](https://klarubbio.github.io/projects/2_project/) and [human-ai](https://klarubbio.github.io/projects/7_project/) interfaces.
 
 
 Previously, I did my undergrad at the University of Florida. In my free time, I can usually be found baking a sweet treat, watching Gators football/gymnastics, hiking, going to concerts, or hiding from the cold at hot yoga.

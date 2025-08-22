@@ -19,11 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a first year Computer Science Ph.D. student at Brown University. My primary research interest is sociotechnical systems, specifically concerning online harm. 
+I'm a Ph.D. student at Brown University studying computer science. My research focuses on leveraging user-generated data to enhance users' productivity and well-being in ways that are sensitive to privacy and other relevant concerns. I am particularly interested in the uses of behavioral data collected by [extended reality](https://klarubbio.github.io/projects/2_project/) and [human-ai](TODO: add linky to new project) interfaces.
 
 
-Technologies make assumptions about behavior, and I'm interested in understanding what happens when those assumptions fail to consider some users' preferences and needs. I'm particularly interested in evaluating and improving emerging technologies, like extended reality and artificial intelligence.
-
-
-Previously, I earned a B.S. in Computer Science from the University of Florida. I did fun research projects on [applications of eye tracking](https://klarubbio.github.io/projects/2_project/), [interpersonal interactions in virtual reality](https://klarubbio.github.io/projects/1_project/), and [more](https://klarubbio.github.io/projects/)!
+Previously, I did my undergrad at the University of Florida. In my free time, I can usually be found baking a sweet treat, watching Gators football/gymnastics, hiking, going to concerts, or hiding from the cold at hot yoga.
 
